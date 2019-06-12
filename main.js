@@ -1,14 +1,14 @@
 console.log('hello world')
-var lovelyGirl=(function(){
- var name='鸭梨傻';
- var age =18;
- function BeautifulGirl (){
-     this.race='sprite';
- } 
-var like=new BeautifulGirl();
-return {
-    herName:name,
-    herAge:age
-}
+var lovelyGril = (function () {
+    var name = '鸭梨傻';
+    var age = 18;
+    function BeautifulGirl() {
+        this.race = 'sprite';
+    }
+    var like = new BeautifulGirl();
+
+    like.herName = name;
+    like.herAge = age;
+    return like;
 }());
 console.log(lovelyGril)
