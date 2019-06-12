@@ -8,7 +8,7 @@ var lovelyGirl=(function(){
 var like=new BeautifulGirl();
 return {
     herName:name,
-    herAge=age
+    herAge:age
 }
 }());
 console.log(lovelyGril)
